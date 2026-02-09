@@ -1,0 +1,15 @@
+name: Compliance Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  compliance:
+    uses: CHITTYOS/chittyops/.github/workflows/reusable-compliance-check.yml@main
+    with:
+      service_name: 'chittyscore'
+      tier: 4
+      check_health: true
+      domain: 'score.chitty.cc'
