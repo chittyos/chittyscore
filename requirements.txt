@@ -1,5 +1,5 @@
-Flask==3.0.0
-Flask-CORS==4.0.0
+Flask==3.1.3
+Flask-CORS==6.0.0
 gunicorn==21.2.0
 pydantic==2.5.0
 numpy==1.24.3
@@ -11,8 +11,8 @@ flask-sqlalchemy
 gunicorn
 psycopg2-binary
 email-validator
-Flask==3.0.0
-Flask-CORS==4.0.0
+Flask==3.1.3
+Flask-CORS==6.0.0
 flask-sqlalchemy
 gunicorn==21.2.0
 numpy==1.24.3
