@@ -13,7 +13,7 @@
     "build:both": "npm run build:standalone && npm run build:system",
     "start": "NODE_ENV=production node dist/index.js",
     "deploy:standalone": "NODE_ENV=production MODE=standalone node dist/standalone/index.js",
-    "deploy:system": "wrangler deploy --config deploy/system-wrangler.toml",
+    "deploy:system": "cf deploy --config deploy/system-wrangler.toml",
     "check": "tsc",
     "db:push": "drizzle-kit push",
     "mode:detect": "node scripts/detect-mode.js",
